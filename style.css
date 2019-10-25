@@ -12,7 +12,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.938);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: red 1px;
 }
 
 .title {
@@ -33,6 +37,7 @@ article {
     padding: 5px;
     box-shadow: 5px 5px lightgrey;
     background-color:rgb(228, 250, 250);
+    margin: 20px;
 }
 
 .author {
@@ -43,7 +48,7 @@ article {
 
 img {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .content {
@@ -63,6 +68,7 @@ h2 {
     text-decoration: underline;
     color: rgb(43, 44, 44);
     text-align: center;
+    font-size: 40px;
 }
 
 ul {
@@ -71,7 +77,11 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-end; */
+    margin-top: 3px;
+}
+
+.postDate {
+    margin-left: -40px;
 }
 
 
@@ -80,8 +90,12 @@ ul {
        display: grid;
        grid-template-columns: repeat(2,1fr);
        grid-template-rows: repeat(2,1fr);
-       grid-column: 1/2;
-       grid-row: 1/2;
+      grid-gap: 10px;
+      align-items: flex-start;
+    }
+   article {
+       /* justify-self: last baseline; */
+       
    }
     h1 {
         font-size: 40px;
@@ -93,4 +107,13 @@ ul {
     font-size: 15px;
    }
 
+}
+
+@media(min-width: 900px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* grid-template-rows: repeat(3,1fr); */
+       grid-gap: 10px;
+    }
 }
