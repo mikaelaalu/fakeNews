@@ -20,27 +20,28 @@ usort ($posts, 'compare');
     </head>
     <body>
 <header> 
-   <h1> Fake News </h1>
+   <h1 class="title">Fake News </h1>
+   <p class="currentDate"><?php echo date("Y/m/d") ?> </p>
+
 </header>
 
-<div>
+<div class="gridContainer">
 
     <?php foreach ($posts as $post) : ?>
     <article>
     <h2> <?php echo $post ['title']; ?> </h2>
-    <p> <?php echo $post ['content'] ?> </p>
-    
-    <ul> <li> <?php echo "Author " . $post['author'] ?> </li>
-    <li> <?php echo "Date " . $post ['date']  ?> </li>
-    <li> <?php echo "Likes " . $post ['likes'] ?> </li> </ul>
-    </article>
+    <p class="author"> <?php echo getAuthorName($post['author_id'], $authors) ?></p>
+    <img src="<?php echo $post['image'];?>"; alt="<?php echo $post['title']; ?>“>"; loading="lazy";">
+    <p class="content"> <?php echo $post ['content'] ?> </p>
+    <ul> <li class="postDate"> <?php echo "Posted " . $post ['date']  ?> </li> 
+    <li class="heart"> <img class="heartForLikes" src="likes.png"  loading=“lazy” alt=“heart“> <?php echo $post ['likes'] ?> </li> </ul>  
+</article>
     <?php endforeach;?>
 
 </div>
 
 
 
+<?php require __DIR__. '/footer.php'; ?>
 
-    </body>
-</html>
 
