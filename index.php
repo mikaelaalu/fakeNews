@@ -16,6 +16,7 @@ usort($posts, 'compareDate');
 </head>
 
 <body>
+    
     <header>
         <h1 class="title">Fake News </h1>
         <p class="currentDate"><?php echo date("Y/m/d") ?> </p>
