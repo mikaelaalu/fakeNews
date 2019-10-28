@@ -1,7 +1,4 @@
-# fakeNews
-
-# PHP assignment in school, build fake news website
-
+# fakeNews - PHP assignment in school
 
 ## Built with 
 * PHP
@@ -10,7 +7,6 @@
 
 
 ## Installation 
-
 * Clone down the project to you computer:
 * git clone https://github.com/mikaelaalu/fakeNews
 * Start your server
