@@ -1,5 +1,4 @@
 <?php
-
 declare(strict_types=1);
 require __DIR__ . '/data.php';
 
@@ -10,7 +9,7 @@ require __DIR__ . '/data.php';
  * @param [array] $b
  * @return int
  */
-function compare(array $a, array $b): int
+function compareDate(array $a, array $b): int
 {
     return strtotime($b['date']) - strtotime($a['date']);
 }
