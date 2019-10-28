@@ -11,8 +11,8 @@
 
 ## Installation 
 
-Clone down the project to you computer:
-git clone https://github.com/mikaelaalu/fakeNews
-Start your server
-Open the index.php file in your browser.
+* Clone down the project to you computer:
+* git clone https://github.com/mikaelaalu/fakeNews
+* Start your server
+* Open the index.php file in your browser.
 
