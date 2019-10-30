@@ -14,8 +14,4 @@
 
 ## Testers 
 * Andreas Pandzic
-<<<<<<< HEAD
 * Alexander Gustafsson Flink
-=======
-*
->>>>>>> e0545738137d4a247982bee689093a54f86ac135
