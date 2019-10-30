@@ -1,7 +1,4 @@
-# fakeNews
-
-# PHP assignment in school, build fake news website
-
+# fakeNews - PHP assignment in school
 
 ## Built with 
 * PHP
@@ -18,4 +15,4 @@
 
 ## Testers 
 * Andreas Pandzic
-*
+* Alexander Gustafsson Flink

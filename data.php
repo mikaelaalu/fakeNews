@@ -1,7 +1,6 @@
 <?php
 declare(strict_types=1);
 
-
 $authors = [
     ['id'=>1,
     'name'=>'Michaela Lundborg',
