@@ -7,7 +7,9 @@ require __DIR__ . '/data.php';
  *
  * @param [array] $a
  * @param [array] $b
+ * 
  * @return int
+ * 
  */
 function compareDate(array $a, array $b): int
 {
@@ -19,7 +21,9 @@ function compareDate(array $a, array $b): int
  *
  * @param [int] $authorName
  * @param [array] $authors
+ * 
  * @return string
+ * 
  */
 function getAuthorName(int $authorName, array $authors): string
 {
