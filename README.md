@@ -1,4 +1,4 @@
-# fakeNews - PHP assignment in school
+# Plain news - PHP assignment in school
 
 <img src="https://media.giphy.com/media/26gsspfbt1HfVQ9va/giphy.gif" width="100%">
 
